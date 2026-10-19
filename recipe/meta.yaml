@@ -1,5 +1,5 @@
 {% set name = "pymrio" %}
-{% set version = "0.6.3" %}
+{% set version = "0.7.0" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pymrio-{{ version }}.tar.gz
-  sha256: 4ed12fe68388ee33a04f32ef1d59f044ac767c5b2b2e064932adfa7d3a00de4c
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pymrio-{{ version }}.tar.gz
+  sha256: 470e6e7b1e310e78fc8a25748a2e3bb264f22ad1f85fb52b2d6c70b022c7c833
 
 build:
   number: 0
